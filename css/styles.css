@@ -1,0 +1,489 @@
+/*******************++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+                        -This is version 5.0
+                        -for Sympati.dk
+                        - developed by Javier Pons
+                        - as Project for Web Designer for AEL.fi
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+@font-face {
+	font-family: 'Blern';
+	src: url('../fonts/Blern-regular/Blern.eot');
+	src: url('../fonts/Blern-regular/Blern.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Blern-regular/Blern.woff') format('woff'),
+		url('../fonts/Blern-regular/Blern.ttf') format('truetype'),
+		url('../fonts/Blern-regular/Blern.svg#Blern') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Lato';
+	src: url('Lato-Light.eot');
+	src: url('Lato-Light.eot?#iefix') format('embedded-opentype'),
+		url('Lato-Light.woff') format('woff'),
+		url('Lato-Light.ttf') format('truetype'),
+		url('Lato-Light.svg#Lato-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+
+body{
+    margin: 0 auto;
+}
+
+#wrapper{
+    width: 100%;
+}
+
+/**************** Ensi sivu Sympaty ******************/
+.sympa{
+    display: none;
+}
+h1{
+ 
+  font-family: Blern, sans-serif;
+  font-size: 10vw;
+  text-align: center;
+  color: white; 
+  position: relative;
+  top:140px;
+  margin-top: 0;
+}
+
+.mainPic{
+    max-width: 100%;
+    height: 865px;
+    background-image:url('../images/ocean.jpg');
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/************  Ensi sivu Sympaty end *************/
+
+
+/************* Toinen sivu: Teksti valkoinen pohja *********/
+
+#ocean-text{
+    height: 700px;
+    padding: 50px 0;
+}
+.square-content{
+   font-family: Lato, sans-serif;
+   font-size: 20px;
+   position:relative;
+   margin: 0 auto;
+   max-width: 70%;
+   color: #3C3744;
+   top: 150px;
+}
+
+
+/************* Toinen sivu: Teksti valkoinen pohja  end *********/
+
+
+
+
+/************* Kolmas osa Huone ****************/
+
+#container1{
+    
+    background-image: url('../images/white.jpg');
+    background-size: cover; 
+}
+.next{
+    font-family: Lato, sans-serif;
+    margin-left: 10%;
+    float: left;
+    color:  #3C3744;    
+    max-width: 20%;
+    font-size: 20px; 
+    
+}
+
+
+.button{
+    
+    text-align: center;
+    height: 35px;
+    background-color: #207e89;
+    opacity: 0.8;
+    border-radius: 9px;
+    box-shadow: 9px 9px 5px #888888;
+    
+}
+.button:hover{
+    transform: translateY(-8px)
+}
+
+.text-green{
+    padding: 50px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top:8px;
+   
+    
+}
+
+.clear{
+    clear: both;
+}
+
+/************* Kolmas osaa huone end ****************/
+
+
+/******************* Neljas osaa: teksti, valkoinen pohja****************/
+
+.firstColored{
+    
+    height: 700px;
+}
+
+#firstColoredText{
+   font-family: Lato, sans-serif;
+   font-size: 20px;
+   letter-spacing: 2.5px;
+   position:relative;
+   margin: 0 auto;
+   top: 200px;
+   padding: 70px;
+   max-width: 780px;
+   height: 200px;
+   color:#207e89 ;
+   
+   
+}
+
+/****************** Neljas osaa: teksti, valkoinen pohja end  *****************/
+
+
+
+/**********   Viides osaa: silta  **************/ 
+
+.recommendation{
+    background-image: url('../images/bridge.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 950px;
+    
+}
+#container2{
+    position: relative;
+    margin: 0 auto;
+    padding: 80px 0;
+    color: white;
+    height: 400px;
+    max-width: 900px;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    top: 130px;
+}
+
+    
+
+/************   Viides osaa silta end *************/ 
+
+
+#line3{
+    border: 3px solid white;
+    width: 90%;
+    
+}
+
+ /******** Footer *********/
+
+
+footer{
+    
+   background-color: #8C9397;/*#353238;*/
+   padding: 20px;
+   margin-top: -4px;
+   font-family: Lato, sans-serif;
+height: 100%;  
+}
+
+ .footer-menu li ul{
+    margin-top: 20px; 
+    float: left;
+    margin-right: 60px;
+   
+}
+ 
+.text-menu {
+    
+    position: relative;
+    bottom: 35px;
+}
+.footer-menu ul li ul li{
+    display: table;
+    color: white;
+}
+.footer-menu ul li ul li a{
+    color: white;
+    
+   
+}
+          
+  .footer-menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#right-menu{
+    position: relative;
+    bottom: 40px;
+    
+}
+
+
+#copyright{
+    text-align: center;
+}
+
+#linkedin{
+    float:right;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+}
+
+#email{
+    color: #D76950; /*#C25F48;/*#FF7F50;*/ 
+}
+
+.footer-menu ul li img{
+    position: relative;
+    top:4px;
+    
+}
+
+/***********  Footer end   ****************/ 
+
+
+
+
+
+
+
+
+
+/**********************************       **********************************
+****************************  Kolme muut sivut ****************************/
+
+
+.sympati-content{
+    background-image: url('../images/ballon.jpg');
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding-bottom: 50px;
+    position: relative;
+  
+    
+}
+.sympati-content h1{
+    top: 20px;
+}
+.sympati-content a{
+    text-decoration: none;
+}
+
+
+
+#sympati-text{
+margin: 0 auto;
+position: relative;
+top: 10%;
+font-family: Lato, sans-serif;
+font-size: 16px;
+color: black;
+max-width: 55%;
+
+
+}
+
+/**********************************       **********************************
+**************************** Kolme muut sivut end ****************************/
+
+
+
+
+/****************************   RESPONSIVE DESIGN  ***************************/
+
+@media (min-width: 1400px) and (max-width:2700px){
+    
+    #ocean-text{
+        font-size: 20px;
+        padding: 90px 0 40px 0;
+    }
+    h1{
+        font-size: 100px;
+       
+    }
+    #sympati-text{
+        padding: 100px 0 320px 0;
+        font-size: 20px;
+        position: relative;
+        right: 200px;
+        width: 700px;
+    }
+    .button{
+        height: 40px;
+    }
+    
+}
+
+@media (min-width: 1250px) and (max-width:1395px){
+    
+    #sympati-text{
+        
+       position: relative;
+        right: 150px; 
+    }
+}
+
+
+@media (max-width: 968px)
+   {
+
+       .square-content{
+           font-size: 2vw;  
+           max-width: 70%;
+       }
+       .next{
+           padding-top: 20px ;
+           float: none;
+           margin: auto;
+           max-width: 40%;
+           font-size: 2vw;
+           margin-top:-20px;
+           
+       }
+       
+       
+}
+
+@media (min-width: 701px) and (max-width: 1380px){
+    
+    h1{
+        padding-top: 40px ;
+        font-size:  100px;
+    }
+    
+      
+    #sympati-text{
+        font-size: 18px;
+        padding-bottom: 90px;
+    }
+    #right-menu li{
+    padding: 4px;
+}
+    #container2{
+        padding: 20px 20px;
+    }
+    
+}
+
+@media (max-width: 700px){
+    
+    h1{
+        font-size: 70px;
+    }
+    .square-content{
+        font-size: 14px
+    }
+    .next{
+        font-size: 14px;
+        max-width: 65%;
+    }
+    #firstColoredText{
+        font-size: 16px;
+        
+    }
+    
+    #sympati-text{
+        font-size: 18px;
+    }
+    
+    #container2{
+        font-size: 16px;
+       padding: 19px;
+        position: relative;
+        top: 20px;
+    }
+    
+    .footer-menu li ul{
+        float: none;
+    }
+    
+    .text-menu, #right-menu{
+        top:20px;
+    }
+    
+    footer{
+        height: 400px;
+    }
+    
+    
+    
+    #sympati-text{
+        font-size: 14px;
+    }
+     #right-menu li{
+    padding: 4px;
+}
+    footer{
+        height: 100% }
+    
+}
+
+@media (max-width: 360px){
+    
+    
+    h1{
+        
+        font-size: 50px;
+    }
+       
+    .square-content{
+        position: relative;
+        top: 50px;
+        font-size: 12px;
+    }
+    
+    #firstColoredText{
+        position: relative;
+        right: 34px;
+        top:20px;
+    }
+    #copyright{
+        position: relative;
+        bottom: 10px;
+    }
+    
+   #right-menu a{
+        margin-bottom: 50px; 
+    }
+    #right-menu li{
+    padding: 4px;
+}
+    footer{
+        height: 100% }
+    
+}
+
+
+/*********************  RESPONSIVE DESIGN END   *****************/
+
+
+
+
+
+
+
